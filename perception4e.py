@@ -1,13 +1,13 @@
 """Perception (Chapter 24)"""
 
 import cv2
-import keras
+import tensorflow.keras as keras
 import matplotlib.pyplot as plt
 import numpy as np
 import scipy.signal
-from keras.datasets import mnist
-from keras.layers import Dense, Activation, Flatten, InputLayer, Conv2D, MaxPooling2D
-from keras.models import Sequential
+from tensorflow.keras.datasets import mnist
+from tensorflow.keras.layers import Dense, Activation, Flatten, InputLayer, Conv2D, MaxPooling2D
+from tensorflow.keras.models import Sequential
 
 from utils4e import gaussian_kernel_2D
 

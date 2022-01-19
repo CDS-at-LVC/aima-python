@@ -479,11 +479,11 @@ class Canvas_TicTacToe(Canvas):
         self.arc_n(x / 3 + 1 / 6, (y / 3 + 1 / 6) * 6 / 7, 1 / 9, 0, 360)
 
 
-class Canvas_min_max(Canvas):
+class Canvas_minimax(Canvas):
     """MinMax for Fig52Extended on HTML canvas"""
 
     def __init__(self, varname, util_list, width=800, height=600, cid=None):
-        super.__init__(varname, width, height, cid)
+        super().__init__(varname, width, height, cid)
         self.utils = {node: util for node, util in zip(range(13, 40), util_list)}
         self.game = Fig52Extended()
         self.game.utils = self.utils

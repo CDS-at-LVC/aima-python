@@ -4,7 +4,6 @@ ipython
 ipythonblocks
 ipywidgets
 jupyter
-keras
 matplotlib
 networkx
 numpy
