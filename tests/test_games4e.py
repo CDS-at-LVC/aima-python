@@ -27,10 +27,10 @@ def gen_state(to_move='X', x_positions=[], o_positions=[], h=3, v=3):
 
 
 def test_minmax_decision():
-    assert minmax_decision('A', f52) == 'a1'
-    assert minmax_decision('B', f52) == 'b1'
-    assert minmax_decision('C', f52) == 'c1'
-    assert minmax_decision('D', f52) == 'd3'
+    assert minimax_decision('A', f52) == 'a1'
+    assert minimax_decision('B', f52) == 'b1'
+    assert minimax_decision('C', f52) == 'c1'
+    assert minimax_decision('D', f52) == 'd3'
 
 
 def test_alpha_beta_search():
